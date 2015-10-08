@@ -18,7 +18,7 @@ import net.bull.javamelody.SessionListener;
  * @author speralta, evernat
  */
 @Configuration
-//@ImportResource("classpath:net/bull/javamelody/monitoring-spring.xml")
+@ImportResource("classpath:net/bull/javamelody/monitoring-spring.xml")
 public class JavaMelodyConfiguration implements ServletContextInitializer {
 	@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
