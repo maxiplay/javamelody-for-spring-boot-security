@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.melody.security</groupId>
-	<artifactId>demo_failure</artifactId>
+	<artifactId>javamelody-for-spring-boot-security</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>demo_failure</name>
-	<description>Demo project for Spring Boot</description>
+	<name>javamelody-for-spring-boot-security</name>
+	<description>Demo project for javamelody-for-spring-boot-security</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -31,6 +31,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
 
 		<dependency>
